@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+  height: 50%;
+  margin: 0%;
+}
+header {
+  color: white;
+  height: 10%;
+  margin: 10% 0% 0% 0%;
+  background-color: rgb(29,29,29);
+  text-align: center;
+  padding: .25%;
+  font-size: 2em;
+}
+summary {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  margin: 0%;
+
+  padding: 5% 0% 10% 0%;
+}
+
+summary > section > h2 {
+  margin: 0%;
+  font-size: 2em;
+}
+summary > section > ul {
+  list-style: none;
+}
+.basics {
+
+  list-style: none;
+}
+section > img {
+  height: 150px;
+  width: 150px;
+  border-radius: 180%;
+  align-content: flex-end;
+
+}
